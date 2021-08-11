@@ -107,5 +107,5 @@ else{
 let element = document.getElementById("command");
 element.innerHTML=command;
 let imgs = document.getElementById("img");
-imgs.innerHTML=` <img src='${urls}' class='imgs'>`;
+imgs.innerHTML=` <div class='card'><img src='${urls}' class='imgs'></div>`;
 };
