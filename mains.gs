@@ -5,7 +5,7 @@
 
 function doPost(e) {
   var verificationToken = e.parameter.token;
-  if (verificationToken != 'qUHYpUx95FGq2O1nl2V3CHHO') { 
+  if (verificationToken != 'you Token!') { 
     throw new Error('Invalid token');
   }
 
