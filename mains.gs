@@ -26,9 +26,13 @@ if ( command.match(/SyntaxError/)) {
     command="構文エラー（かっこ忘れ）かっこを忘れている可能性があります。"
     urls="http://ituyama.com/errorsearch/imgs/syntax-2.png"
 
-    }else{
-    command="構文エラー　コロン（:）や閉じかっこが抜けている可能性があります。"
+    }else　if ( command.match(/invalid/)) {
+    command="構文エラー　コロン（:）が抜けている可能性があります。"
     urls="http://ituyama.com/errorsearch/e1s.png"
+  }else{
+    command="構文エラー　コロン（:）やかっこが抜けている可能性があります。"
+    urls="http://ituyama.com/errorsearch/e1s.png"
+    
   }
 
 
