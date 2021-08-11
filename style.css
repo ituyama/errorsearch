@@ -5,6 +5,7 @@
     border: none;
     margin-top: 150px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
 }
 .center{
    
@@ -15,12 +16,38 @@
 
 body{
  background-color: #D3EB00;
+ font-family: 'Noto Sans JP', sans-serif;
     
 }
 .title{
     margin-top: 40px;
+    font-weight: bold;
 }
 .imgs{
     width: 500px;
     max-width: 100%;
+}
+.form-control{
+    border: none;
+ 
+}
+.form-control:active{
+    border: none;
+
+
+}
+input:active{
+    border: none;
+
+}
+.navbar,.navbar-brand{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.donate{
+    z-index: 10;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
 }
